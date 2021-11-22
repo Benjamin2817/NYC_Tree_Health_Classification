@@ -15,6 +15,38 @@ Trees in poor health require additional maintenance and attention by the Parks D
 
 ***
 
+# Initial Findings
+
+NYC has an incredible number of street-trees (those outside of parks).  The initial dataset includes information on 683,788 of these trees.  This plot shows the citywide distribution of trees.
+
 ![NYC Tree Population](./data/images/tree_pop.png)
 
+In this analysis, we’re investigating data most related to the health of the trees.  The data contains three possible values for health: Good ,Fair, and Poor. We see that, fortunately, the vast majority of trees in NYC are evaluated as being in ‘Good’ or ‘Fair’ health, with a fraction of all trees evaluating as ‘Poor’.
+
 ![Tree_Population_by_Health](./data/images/pop_by_health.png)
+
+# Methods
+
+This project employs three machine learning algorithms to best determine the health of a tree given its collected features.
+
+# Conclusions
+
+The two leading data elements associated with trees in poor health are trunk problems not related to lights, ropes or wires, and branch problems not related to lights, shoes or wires.
+
+Another of the leading data elements associated with tree health is the diameter of the tree’s trunk. Reducing the number of trees in poor health could be achieved through such things as allowing the trees to have more time to mature before they are planted on city streets.  This would help assure trees which may have been planted too early in their growth have a better chance of good health and survival. 
+
+Trunk problems could be reduced or eliminated through additional public awareness to raise sensitivity to behaviors and actions which damage trunks (parking near trees, allowing animals scratch trees, chopping portions of the trunk or root systems, placing sidewalks too close to tree trunks).   Similarly, branch-problems can perhaps be controlled through simple changes in the public's behaviors towards the city’s trees. 
+
+![Feature_Importance](./data/images/feature_importance)
+
+# Next Steps
+
+One issue hampering analysis is the processor-intensive nature of some of the methods employed, especially those in the Gridsearch library. Some way of providing additional processing speed would be helpful in this area.
+
+If time permitted, I would have done additional analysis of the two or three leading values associated with tree health (e.g., trunk problems-other, branch problems-other, and trunk diameter) 
+
+Additional data would also be helpful in determining why these three properties of the trees lead to poor health.  For example, is the trunk-health issue related to automobile damage? Is intentional destruction of the tree’s bark or possible cutting into the trees an issue?  Are animals damaging the trees and could people be of assistance in controlling some of the animal behavior?
+
+# Closing
+
+Trees go largely unnoticed as we go about our day-to-day business, but they are essential in improving the beauty, health, and appeal of our cities.  Trees help to provide cleaner air, habitats for wildlife, cooling shade in the summer, a barrier to winds, preserve soil and help control ground water.  Perhaps more importantly, they are a source of beauty and peace in a stress- filled city environment. Data science can be useful in discovering hidden relationships between the data collected through the New York City's Parks Department’s ambitious program of tree census taking, and the health of the City’s over half-million street trees. 
