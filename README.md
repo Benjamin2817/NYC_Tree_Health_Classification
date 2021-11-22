@@ -11,4 +11,6 @@ Green space is vital to the prosperity* of a city and the welfare of its inhabit
 * Which factors are most prevalent among trees in poor health?
 * Which factors most contribute to a tree's health?
 
+![NYC Tree Population](./data/images/tree_pop.png)
+
 
