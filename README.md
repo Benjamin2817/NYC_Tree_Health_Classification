@@ -37,7 +37,7 @@ Another of the leading data elements associated with tree health is the diameter
 
 Trunk problems could be reduced or eliminated through additional public awareness to raise sensitivity to behaviors and actions which damage trunks (parking near trees, allowing animals scratch trees, chopping portions of the trunk or root systems, placing sidewalks too close to tree trunks).   Similarly, branch-problems can perhaps be controlled through simple changes in the public's behaviors towards the city’s trees. 
 
-![Feature_Importance](./data/images/feature_importance)
+![Feature_Importance](./data/images/feature_importance.png)
 
 # Next Steps
 
